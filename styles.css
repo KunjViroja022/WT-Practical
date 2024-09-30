@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://img.lovepik.com/background/20211021/large/lovepik-science-and-technology-information-technology-background-image_400112393.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.container {
+    background: linear-gradient(rgb(13, 92, 240), #54bef3);
+    /* background: #54bef3; */
+    padding: 20px;
+    border-radius: 8px;
+    border:1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.1);
+    text-align: center;
+    width: 300px;
+}
+.container h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+}
+.settings label {
+    display: block;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     /* border: solid 1px rgb(14, 132, 243);
+    border-radius: 5px;
+    margin-left: 40px;  */
+    /* width: 80%; */
+    margin: 8px 0;
+    padding: 5px;
+    
+}
+.settings label #length{
+    background-color: rgb(68, 184, 241);
+}
+button {
+
+    background-color: #2591e9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #71caf3;
+}
